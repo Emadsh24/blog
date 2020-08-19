@@ -9,7 +9,7 @@ function CreatePost({user,posts,setPosts}) {
     }
    
     function handleContent (evt) {
-      setContent(evt.target.value)
+      setContent(evt.target.value);
     }
   
     function handleCreate () {
