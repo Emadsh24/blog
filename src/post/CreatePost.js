@@ -7,7 +7,7 @@ function CreatePost({user,posts,setPosts}) {
     function handleTitle (evt) {
       setTitle(evt.target.value)
     }
-  
+   
     function handleContent (evt) {
       setContent(evt.target.value)
     }
